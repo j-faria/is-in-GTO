@@ -43,7 +43,8 @@ def get_IDs():
 
 def is_in_GTO(targets, numpy=False):
     """ 
-    Check if `targets` are in the ESPRESSO GTO list 
+    Check if `targets` are in the ESPRESSO GTO list. Remember to remove spaces
+    from the inputs to this function.
 
     Parameters
     ----------
